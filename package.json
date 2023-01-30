@@ -1,0 +1,26 @@
+{
+  "name": "@ovaltechnologies/utils",
+  "version": "1.0.0",
+  "description": "Frequently used utilities for our projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovaltechnologiesinc/utils.git"
+  },
+  "keywords": [
+    "fullname",
+    "capitalise",
+    "slugify"
+  ],
+  "author": "Harrison Enene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovaltechnologiesinc/utils/issues"
+  },
+  "homepage": "https://github.com/ovaltechnologiesinc/utils#readme",
+  "type": "module"
+}
