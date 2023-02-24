@@ -65,7 +65,18 @@ const convertBase64ImageToDataUri = (base64Str, MAX_WIDTH = 1000, MAX_HEIGHT = 1
 
 const removeExtraSpaces = text => {
     return text.replace(/\s+/g, ' ').trim()
-}
+};
+
+const slugify = (text) => {
+    return text
+        .trim()
+        .toString()
+        .toLowerCase()
+        .replace(/\s+/g, '-') // Replace spaces with -
+        .replace(/[^\w\-]+/g, '') // Remove all non-word chars
+        .replace(/\-\-+/g, '-') // Replace multiple - with single -
+};
+
 
 export {
     makeFullName,
@@ -73,4 +84,5 @@ export {
     resizeBase64Image,
     convertBase64ImageToDataUri,
     removeExtraSpaces,
+    slugify,
 };

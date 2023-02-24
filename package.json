@@ -15,7 +15,8 @@
   "keywords": [
     "fullname",
     "capitalise",
-    "slugify"
+    "slugify",
+    "remove-extra-spaces"
   ],
   "author": "Harrison Enene",
   "license": "ISC",
