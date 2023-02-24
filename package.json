@@ -1,12 +1,12 @@
 {
   "name": "@ovaltechnologies/utils",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "Frequently used utilities for our projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish --access public",
-    "patch": "npm version patch --access public"
+    "patch": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
