@@ -63,9 +63,14 @@ const convertBase64ImageToDataUri = (base64Str, MAX_WIDTH = 1000, MAX_HEIGHT = 1
     })
 };
 
+const removeExtraSpaces = text => {
+    return text.replace(/\s+/g, ' ').trim()
+}
+
 export {
     makeFullName,
     createInitials,
     resizeBase64Image,
     convertBase64ImageToDataUri,
+    removeExtraSpaces,
 };
