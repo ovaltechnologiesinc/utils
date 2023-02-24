@@ -78,7 +78,14 @@ const slugify = (text) => {
 };
 
 
-
+module.exports = {
+    makeFullName,
+    createInitials,
+    resizeBase64Image,
+    convertBase64ImageToDataUri,
+    removeExtraSpaces,
+    slugify,
+}
 
 export {
     makeFullName,

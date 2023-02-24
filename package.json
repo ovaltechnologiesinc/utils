@@ -1,6 +1,6 @@
 {
   "name": "@ovaltechnologies/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Frequently used utilities for our projects",
   "main": "index.js",
   "scripts": {
