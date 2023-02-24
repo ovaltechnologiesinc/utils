@@ -25,5 +25,5 @@
     "url": "https://github.com/ovaltechnologiesinc/utils/issues"
   },
   "homepage": "https://github.com/ovaltechnologiesinc/utils#readme",
-  "type": "module"
+  "type": "commonjs"
 }
