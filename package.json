@@ -2,7 +2,8 @@
   "name": "@ovaltechnologies/utils",
   "version": "1.0.5",
   "description": "Frequently used utilities for our projects",
-  "main": "index.js",
+  "main": "es5/index.js",
+  "module": "es6/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish --access public",

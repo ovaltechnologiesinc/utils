@@ -77,16 +77,6 @@ const slugify = (text) => {
         .replace(/\-\-+/g, '-') // Replace multiple - with single -
 };
 
-
-module.exports = {
-    makeFullName,
-    createInitials,
-    resizeBase64Image,
-    convertBase64ImageToDataUri,
-    removeExtraSpaces,
-    slugify,
-}
-
 export {
     makeFullName,
     createInitials,
