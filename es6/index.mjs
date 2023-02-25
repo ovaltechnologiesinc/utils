@@ -77,6 +77,15 @@ const slugify = (text) => {
         .replace(/\-\-+/g, '-') // Replace multiple - with single -
 };
 
+const chunkArray = (array, chunkSize) => {
+    const result = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+        const chunk = array.slice(i, i + chunkSize);
+        result.push(chunk);
+    }
+    return result;
+}
+
 export {
     makeFullName,
     createInitials,
@@ -84,4 +93,5 @@ export {
     convertBase64ImageToDataUri,
     removeExtraSpaces,
     slugify,
+    chunkArray
 };
